@@ -1,0 +1,14 @@
+.new-btn {
+  color: lightgrey;
+  text-align: left;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+}
+
+.new-btn:hover {
+  color: grey;
+}
+
+.text-danger {
+  display: block;
+}

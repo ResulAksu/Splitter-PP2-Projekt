@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  groupdb:
+    image: postgres:15-alpine
+    volumes:
+      - "./data/group:/var/lib/postgresql/data"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: group
+      POSTGRES_USER: theuser
+      POSTGRES_PASSWORD: thepassword
